@@ -1,7 +1,27 @@
 aid: futureadvisor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/futureadvisor.png
 name: Futureadvisor
-description: Futureadvisor is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FutureAdvisor was a Y Combinator-backed robo-advisor that provided automated,
+  algorithm-driven investment management and portfolio recommendations to retail
+  investors. It was acquired by BlackRock and folded into the firm's digital wealth
+  offerings; the consumer FutureAdvisor product has since been wound down. As of this
+  enrichment pass the domain futureadvisor.com is controlled by BlackRock (its
+  nameservers resolve to blackrock.com) but publishes no live website, developer
+  portal, API documentation, SDKs, or any public developer surface. No API artifacts
+  could be searched, fetched, or derived — this remains an identity-only record for a
+  defunct/absorbed provider.
 url: https://raw.githubusercontent.com/api-evangelist/futureadvisor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,25 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: defunct
+x-status-note: Acquired by BlackRock; consumer product wound down; futureadvisor.com does not resolve (no A record) as of 2026-07-19.
 tags:
 - Company
+- Financial Services
+- Wealth Management
+- Robo-Advisor
+- Investment Management
+- Fintech
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
