@@ -72,3 +72,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/blackrock/
+  name: BlackRock
+  x-relationship: acquired
+  x-evidence: "It was acquired by BlackRock and folded into the firm's digital wealth offerings; the consumer FutureAdvisor product has since been wound down."
