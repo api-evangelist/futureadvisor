@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 x-status: defunct
 x-status-note: Acquired by BlackRock; consumer product wound down; futureadvisor.com does not resolve
   (no A record) as of 2026-07-19.
@@ -51,6 +51,7 @@ tags:
 - Investment Management
 - Fintech
 - Acquired
+- Defunct
 tags_raw:
 - Company
 - Financial Services
@@ -59,6 +60,7 @@ tags_raw:
 - Investment Management
 - Fintech
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
