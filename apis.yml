@@ -45,7 +45,7 @@ x-status-note: Acquired by BlackRock; consumer product wound down; futureadvisor
   (no A record) as of 2026-07-19.
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Wealth Management
 - Robo-Advisor
 - Investment Management
@@ -61,6 +61,7 @@ tags_raw:
 - Fintech
 - Acquired
 - Defunct
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
